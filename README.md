@@ -2,10 +2,10 @@
 
 An AI-powered customer feedback aggregation and analysis tool built entirely on the Cloudflare Developer Platform.
 
-## 🚀 Live Demo
+## Live Demo
 https://feedback-intelligence.keerthi-feedback.workers.dev
 
-## 🏗️ Architecture
+## Architecture
 
 This project uses **3 Cloudflare Developer Platform products**:
 
@@ -13,16 +13,16 @@ This project uses **3 Cloudflare Developer Platform products**:
 - **D1 Database**: SQLite-compatible SQL database for storing feedback entries  
 - **Workers AI**: Llama 3.1-8B model for automatic sentiment analysis and categorization
 
-## ✨ Features
+## Features
 
-- 📝 Real-time feedback submission from multiple sources (Discord, GitHub, Twitter, Support Email)
-- 🤖 AI-powered sentiment analysis (positive/negative/neutral)
-- 🏷️ Automatic categorization (Bug, Feature Request, Praise, Complaint)
-- ⚡ Urgency scoring (1-5 scale)
-- 📊 Beautiful, responsive dashboard with summary metrics
-- 🎨 Professional UI with Tailwind CSS
+-  Real-time feedback submission from multiple sources (Discord, GitHub, Twitter, Support Email)
+-  AI-powered sentiment analysis (positive/negative/neutral)
+-  Automatic categorization (Bug, Feature Request, Praise, Complaint)
+-  Urgency scoring (1-5 scale)
+-  Responsive dashboard with summary metrics
+-  Professional UI with Tailwind CSS
 
-## 🛠️ Technologies
+## Technologies
 
 - TypeScript
 - Cloudflare Workers
@@ -30,7 +30,7 @@ This project uses **3 Cloudflare Developer Platform products**:
 - Cloudflare Workers AI (Llama 3.1-8B-Instruct)
 - Tailwind CSS
 
-## 📦 Local Setup
+## Local Setup
 ```bash
 # Install dependencies
 npm install
@@ -46,12 +46,12 @@ npx wrangler d1 execute feedback-db --remote --file=schema.sql
 npm run dev
 ```
 
-## 🚢 Deployment
+## Deployment
 ```bash
 npx wrangler deploy
 ```
 
-## 📝 Product Feedback Flow
+## Product Feedback Flow
 
 1. User submits feedback through the form
 2. Workers AI analyzes the text and determines:
@@ -61,6 +61,6 @@ npx wrangler deploy
 3. Results stored in D1 database
 4. Dashboard updates in real-time
 
-## 🎯 Built For
+## Built For
 
 Cloudflare Product Manager Intern Assignment (Summer 2026)
